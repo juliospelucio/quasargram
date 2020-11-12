@@ -27,7 +27,7 @@
 
           <q-card-section>
             <div>{{ post.caption }}</div>
-            <div class="text-caption text-grey">{{ post.date }}</div>
+            <div class="text-caption text-grey">{{ post.date | niceDate }}</div>
           </q-card-section>
         </q-card>
       </div>
@@ -62,7 +62,7 @@ export default {
           date: 1605036007702,
           location: "Minas Gerais, Brasil",
           imageUrl:
-            "https://lh3.googleusercontent.com/proxy/W4FJAjaoWP0Ov1jVrmed0gLnz3RzWQSXClNgmP5IcZck_dUo_Gsb9DS2OyOh4lKNa2n2V0w8tASZiWSf4Fdvue4EyqobHSvtmF9k2Ie7grSTNa3sHio7AUCMQbenF79Ocj4XGgYj-ByTj2gS8J8U_5-Neo8YwfE",
+            "https://s2.glbimg.com/pPzzzaEVmTCJKDSfuCwa1FxgtyY=/0x0:620x316/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/X/S/HKG0nbS9Ab2XBICXCmRw/museu.jpg",
         },
         {
           id: 2,
@@ -70,7 +70,7 @@ export default {
           date: 1605036007702,
           location: "Minas Gerais, Brasil",
           imageUrl:
-            "https://lh3.googleusercontent.com/proxy/W4FJAjaoWP0Ov1jVrmed0gLnz3RzWQSXClNgmP5IcZck_dUo_Gsb9DS2OyOh4lKNa2n2V0w8tASZiWSf4Fdvue4EyqobHSvtmF9k2Ie7grSTNa3sHio7AUCMQbenF79Ocj4XGgYj-ByTj2gS8J8U_5-Neo8YwfE",
+            "https://s2.glbimg.com/pPzzzaEVmTCJKDSfuCwa1FxgtyY=/0x0:620x316/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/X/S/HKG0nbS9Ab2XBICXCmRw/museu.jpg",
         },
         {
           id: 3,
@@ -78,7 +78,7 @@ export default {
           date: 1605036007702,
           location: "Minas Gerais, Brasil",
           imageUrl:
-            "https://lh3.googleusercontent.com/proxy/W4FJAjaoWP0Ov1jVrmed0gLnz3RzWQSXClNgmP5IcZck_dUo_Gsb9DS2OyOh4lKNa2n2V0w8tASZiWSf4Fdvue4EyqobHSvtmF9k2Ie7grSTNa3sHio7AUCMQbenF79Ocj4XGgYj-ByTj2gS8J8U_5-Neo8YwfE",
+            "https://s2.glbimg.com/pPzzzaEVmTCJKDSfuCwa1FxgtyY=/0x0:620x316/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/X/S/HKG0nbS9Ab2XBICXCmRw/museu.jpg",
         },
         {
           id: 4,
@@ -86,7 +86,7 @@ export default {
           date: 1605036007702,
           location: "Minas Gerais, Brasil",
           imageUrl:
-            "https://lh3.googleusercontent.com/proxy/W4FJAjaoWP0Ov1jVrmed0gLnz3RzWQSXClNgmP5IcZck_dUo_Gsb9DS2OyOh4lKNa2n2V0w8tASZiWSf4Fdvue4EyqobHSvtmF9k2Ie7grSTNa3sHio7AUCMQbenF79Ocj4XGgYj-ByTj2gS8J8U_5-Neo8YwfE",
+            "https://s2.glbimg.com/pPzzzaEVmTCJKDSfuCwa1FxgtyY=/0x0:620x316/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/X/S/HKG0nbS9Ab2XBICXCmRw/museu.jpg",
         },
       ],
     };
@@ -100,6 +100,6 @@ export default {
 </script>
 <style lang="sass">
 .card-post
-    .q-img
-        min-height: 200px
+  .q-img
+    min-height: 200px
 </style>
