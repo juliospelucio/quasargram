@@ -11,8 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "busboy": "^0.3.1",
     "express": "^4.17.1",
     "firebase-admin": "^9.4.0",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "uuid-v4": "^0.1.0"
   }
 }
