@@ -13,6 +13,7 @@
     "axios": "^0.18.1",
     "core-js": "^3.6.5",
     "md-gum-polyfill": "^1.0.0",
+    "nodemon": "^2.0.6",
     "quasar": "^1.0.0"
   },
   "devDependencies": {
