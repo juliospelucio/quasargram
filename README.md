@@ -1,6 +1,13 @@
 # Quasargram (quasargram)
 
-A Quasar Framework app
+A Instagram clone using Quasar framework
+
+![](https://github.com/juliospelucio/quasargram/blob/main/Screenshot%202020-11-16%20154645.png)
+![](https://github.com/juliospelucio/quasargram/blob/main/Screenshot%202020-11-16%20160033.png)
+
+![](https://github.com/juliospelucio/quasargram/blob/main/Screenshot%202020-11-16%20155951.png)
+![](https://github.com/juliospelucio/quasargram/blob/main/Screenshot%202020-11-16%20155335.png)
+
 
 ## Install the dependencies
 ```bash
